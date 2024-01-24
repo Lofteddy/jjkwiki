@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Oswald:wght@700&family=Pacifico&family=Roboto:ital,wght@1,900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+header {
+    background-color: #150873;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.logoimg {
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+}
+
+main {
+    background-image: url(Images/bannermain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100% ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+
+}
+
+.container{
+    background-image: url(Images/bannersearch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px; 
+    display: flex;
+    align-items: center;
+}
+
+input{
+    background-color: #161f39de;
+    width:300px;
+    height: 20px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
